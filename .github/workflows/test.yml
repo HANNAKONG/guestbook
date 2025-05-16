@@ -16,5 +16,5 @@ jobs:
 
       - name: Test AWS CLI
         run:
-          aws sts get-caller-indentity
+          aws sts get-caller-identity
           aws ecr describe-repositories
